@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout >
+            <Image Source=""
+                   SemanticProperties.Description="The dot net bot waving hello!"
+                   HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Remember" VerticalOptions="End" />
+            <Label FontSize="22" Text="" VerticalOptions="End" />
+           
+        </HorizontalStackLayout>
+        <Label Text="1 hour ago" HorizontalOptions="End"/>
+        <Grid ColumnDefinitions="Auto,Auto,Auto" RowSpacing="3" >
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+
+            <ImageButton Source="etoile_blanche.png"
+                    Grid.Column="1"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+        </Grid>
+
+        <Label Text="kwhegtvulg;mhlrsngsbe;
+               heghsbhlrhvhgiieshlgiuuihsuidliulsulehgudsiohgs" />
+        <HorizontalStackLayout >
+            
+            <Image Source=""
+                   SemanticProperties.Description="The dot net bot waving hello!"
+                   HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Remember" VerticalOptions="End" />
+            <Label FontSize="22" Text="" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text="13:45" HorizontalOptions="End" />
+        <Grid ColumnDefinitions="Auto,Auto,Auto" RowSpacing="3" >
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+
+            <ImageButton Source="etoile_blanche.png"
+                    Grid.Column="1"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+        </Grid>
+
+        <Label Text="kwhegtvulg;mhlrsngsbe;
+               heghsbhlrhvhgiieshlgiuuihsuidliulsulehgudsiohgs" />
+        <HorizontalStackLayout >
+            <Image Source=""
+                   SemanticProperties.Description="The dot net bot waving hello!"
+                   HeightRequest="64" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Remember" VerticalOptions="End" />
+            <Label FontSize="22" Text="" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text="yesterday" HorizontalOptions="End" />
+        <Grid ColumnDefinitions="Auto,Auto,Auto" RowSpacing="3" >
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+              <Grid ColumnDefinitions="Auto,Auto,Auto" RowSpacing="3" >
+            <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+                <ImageButton Source="etoilejaune.png"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+
+                <ImageButton Source="etoile_blanche.png"
+                    Grid.Column="1"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+        </Grid>
+
+            <ImageButton Source="etoile_blanche.png"
+                    Grid.Column="1"
+                    WidthRequest="25"
+                    HorizontalOptions="Start"
+                    />
+        </Grid>
+
+        <Label Text="kwhegtvulg;mhlrsngsbe;
+               heghsbhlrhvhgiieshlgiuuihsuidliulsulehgudsiohgs" />
+
+
+
+        <Grid ColumnDefinitions="Auto,Auto,Auto"  HorizontalOptions="End" >
+            <ImageButton Source="boutonblue.png"
+                    WidthRequest="70"
+                    HorizontalOptions="End"
+                    />
+         
+                </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>
